@@ -86,19 +86,119 @@
       padding: 30px;
       font-size: 14px;
     }
+   .hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+ 
+.logo {
+  height: 70px;
+  margin: 10px;
+}
+ 
+.invite-text {
+  font-size: 18px;
+  margin-top: 20px;
+}
+ 
+.venue, .time {
+  margin-top: 15px;
+  font-size: 16px;
+}
 </style>
 </head>
  
 <body>
  
-<header>
-<!-- LOGOS -->
-<img src="ai-summit-logo.png" alt="AI Impact Summit Logo">
-<img src="zinghr-logo.png" alt="ZingHR Logo">
+<header class="hero">
+<img src="ai-summit-logo.png" class="logo" />
+<img src="zinghr-logo.png" class="logo" />
  
-  <h1>India AI Impact Summit 2026</h1>
-<div class="sub">16–20 February 2026 | Bharat Mandapam, New Delhi</div>
+  <p class="invite-text">You are cordially invited to discuss</p>
+<h1>“AI in HR Tech”</h1>
+ 
+  <p class="venue">
+    at<br>
+    Booth No. 6.92, Hall 6<br>
+    Ground Floor, Bharat Mandapam, New Delhi
+</p>
+ 
+  <p class="time">
+    Any hour between 10:00 a.m. and 5:00 p.m.<br>
+    Any day from Feb 16 through Feb 20
+</p>
 </header>
+ <section class="tabs">
+<button onclick="showTab('rsvp')" class="tab-btn active">RSVP</button>
+<button onclick="showTab('experts')" class="tab-btn">Our Experts</button>
+</section>
+ 
+<section id="rsvp" class="tab-content active">
+<img src="brochure-slide-1.png" class="brochure">
+<!-- Google Form iframe goes here -->
+</section>
+ 
+<section id="experts" class="tab-content">
+<div class="expert">
+<img src="prasad.jpg">
+<div>
+<h3>Prasad Rajappan</h3>
+<p>Founder & MD<br>ZingHR</p>
+</div>
+</div>
+ 
+  <div class="expert">
+<img src="rohit.jpg">
+<div>
+<h3>Dr. Rohit Goswami</h3>
+<p>Head – Centre of Excellence<br>ZingHR</p>
+</div>
+</div>
+</section>
+
+ 
+<section class="tabs">
+<button onclick="showTab('rsvp')" class="tab-btn active">RSVP</button>
+<button onclick="showTab('experts')" class="tab-btn">Our Experts</button>
+</section>
+ 
+<section id="rsvp" class="tab-content active">
+<img src="brochure-slide-1.png" class="brochure">
+ 
+  <iframe
+
+    src="https://docs.google.com/forms/d/e/1FAIpQLSfHGnPZxM9CWPdV71g6/viewform?embedded=true"
+
+    width="100%"
+
+    height="800"
+
+    frameborder="0"
+
+    marginheight="0"
+
+    marginwidth="0">
+</iframe>
+</section>
+ 
+<section id="experts" class="tab-content">
+<div class="expert">
+<img src="prasad.jpg">
+<div>
+<h3>Prasad Rajappan</h3>
+<p>Founder & MD<br>ZingHR</p>
+</div>
+</div>
+ 
+  <div class="expert">
+<img src="rohit.jpg">
+<div>
+<h3>Dr. Rohit Goswami</h3>
+<p>Head – Centre of Excellence<br>ZingHR</p>
+</div>
+</div>
+</section>
+
  
 <section>
 <h2>About the Summit</h2>
